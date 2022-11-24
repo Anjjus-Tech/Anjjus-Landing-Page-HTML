@@ -1,0 +1,278 @@
+.screenfull {
+    width: 100%;
+    height: 90vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #3448ce00;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_logo {
+    width: 200px;
+    padding: 15px;
+}
+
+.img1 {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pad1 {
+    padding: 130px 0px;
+}
+
+.bgwhite {
+    background-image: url("assets/img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: top;
+}
+.bgwhite h2 {
+    color: #141215 !important;
+}
+
+.features {
+    flex-direction: row;
+}
+
+.features p {
+    margin: 20px;
+    color: white;
+}
+
+.blue-bg {
+    background-image: url("assets/img/bluebg2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: top;
+}
+
+.blue-bg h1 {
+    color: white;
+}
+
+.blue-bg p {
+    color: white;
+}
+
+.bgwhite h1 {
+    color: rgb(37, 37, 37);
+}
+
+.bgwhite p {
+    color: rgb(37, 37, 37);
+}
+
+
+.home {
+    height: 90vh;
+    gap: 100px;
+    align-items: center;
+}
+
+.hometext {
+    padding-bottom: 40px;
+}
+
+.body_wrapper h1 {
+    font-weight: 1000;
+    margin-bottom: 0px;
+}
+
+.home p {
+    color: white;
+}
+
+.home h1 {
+    color: white;
+}
+
+.blue-bg a {
+    color: white;
+}
+
+.blue-bg li {
+    color: white;
+}
+.bgwhite li {
+    color: #141215;
+}
+
+.blue-bg h2 {
+    color: white;
+}
+
+.icone_footer {
+    font-size: 25px;
+}
+
+.pc-display {
+    display: none !important;
+}
+
+.btn-home {
+    position: relative;
+    display: inline-block;
+    background-color: orange;
+    border: solid 1px orange;
+    color: white;
+    box-shadow: 0 5px 15px rgb(53 53 53 / 30%);
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 3px;
+    text-decoration: none;
+  
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .btn-home:hover {
+    background-color: white;
+    border-color: white;
+    color: orange;
+  }
+  ul {
+    list-style-type:none ;
+  }
+  .icon {
+    margin-right: 15px;
+  }
+  .passo {
+    padding-top: 100px;
+  }
+  .img-passo {
+    width: 120px;
+    margin: 15px;
+  }
+  .atencao {
+    background-image: none !important;
+    background-color: #1b5caa !important;
+  }
+  
+  .img3 {
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .collapsible {
+    background-color: transparent;
+    color: #141215;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+   
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  } 
+  .home h4 {
+    font-size: 20px;
+  }
+  .blue-bg h4 {
+    color: white;
+  }
+  .bgwhite h4 {
+    color: #141215;
+  }
+  .phone-column {
+    flex-direction: row;
+  }
+  
+@media screen and (max-width: 600px) {
+    .features {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blue-bg {
+        background-image: url("assets/img/bluebg2.png");
+        background-repeat: no-repeat;
+        background-size: 700%;
+        background-position-y: top;
+        text-align: center;
+    }
+
+    .phone-display {
+        display: none !important;
+    }
+
+    .pc-display {
+        display: unset !important;
+    }
+
+    .home {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home h1 {
+        margin-top: unset;
+    }
+
+    .phone-column {
+        flex-direction: column;
+    }
+
+    .phone-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .phone-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bgwhite {
+        background-image: url("assets/img/bg2.png");
+        background-repeat: no-repeat;
+        background-size: 500%;
+        background-position-y: top;
+        text-align: center;
+    }
+
+    .phone-home {
+        margin-top: -100px;
+    }
+
+    .inicio {
+        height: fit-content;
+    }
+
+    .inicio h1 {
+        margin-top: unset;
+    }
+
+    .representacoes {
+        height: fit-content;
+    }
+
+    .embalagens {
+        height: fit-content;
+    }
+
+
+}
